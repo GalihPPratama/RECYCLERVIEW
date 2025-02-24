@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="16dp">
+
+    <!-- Gambar Film -->
+    <ImageView
+        android:id="@+id/imageViewPoster"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/koyuk"/>
+
+    <!-- Judul Film -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Genre -->
+    <TextView
+        android:id="@+id/textViewGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Deskripsi -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="191dp"
+        android:layout_marginLeft="25dp"
+        android:layout_weight="1"
+        android:text="Deskripsi film"
+        android:textColor="@color/white"
+        android:textSize="10dp" />
+
+    <!-- Tombol Kembali -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
