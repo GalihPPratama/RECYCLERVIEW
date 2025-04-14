@@ -29,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
         musicList.add(new FilmModel("Bedroom Community", "Glass Beach", "The second song on the album is about a bedroom community, which is known as a place where many people live but do not work, commonly suburban areas outside of major cities.", R.drawable.glassbeach));
         musicList.add(new FilmModel("Mystic Light Quest", " 塞壬唱片-MSR, KOTONOHOUSE, RANASOL ", "Mystic Light Quest is an Arknights music track and the Operator EP of Pepe, performed by Japanese singer and voice actress Machico, with lyrics by Japanese singer RANASOL and composed by dance music producer KOTONOHOUSE.", R.drawable.mysticlight));
         musicList.add(new FilmModel("Misty Memory", "塞壬唱片-MSR · Erik Castro · David Lin · 左乙", "Misty Memory is an Arknights song part of So Long, Adele OST, performed by ZOEE (who previously covered Be Me in Chinese and performed Miss You) and notably has three versions:", R.drawable.mistymemory));
+        musicList.add(new FilmModel("Misty Memory", "塞壬唱片-MSR · Erik Castro · David Lin · 左乙", "Misty Memory is an Arknights song part of So Long, Adele OST, performed by ZOEE (who previously covered Be Me in Chinese and performed Miss You) and notably has three versions:", R.drawable.mistymemory));
+        musicList.add(new FilmModel("Misty Memory", "塞壬唱片-MSR · Erik Castro · David Lin · 左乙", "Misty Memory is an Arknights song part of So Long, Adele OST, performed by ZOEE (who previously covered Be Me in Chinese and performed Miss You) and notably has three versions:", R.drawable.mistymemory));
+        musicList.add(new FilmModel("Misty Memory", "塞壬唱片-MSR · Erik Castro · David Lin · 左乙", "Misty Memory is an Arknights song part of So Long, Adele OST, performed by ZOEE (who previously covered Be Me in Chinese and performed Miss You) and notably has three versions:", R.drawable.mistymemory));
+        musicList.add(new FilmModel("Misty Memory", "塞壬唱片-MSR · Erik Castro · David Lin · 左乙", "Misty Memory is an Arknights song part of So Long, Adele OST, performed by ZOEE (who previously covered Be Me in Chinese and performed Miss You) and notably has three versions:", R.drawable.mistymemory));
+        musicList.add(new FilmModel("Chest Pain", "Malcolm Todd", "i loooooooooooooooooooooooove", R.drawable.glassbeach));
 
 
         filmAdapter = new FilmAdapter(musicList, film -> {
